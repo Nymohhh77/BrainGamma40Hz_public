@@ -41,19 +41,6 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 
 **BrainGamma40Hz does not collect, store, or transmit any user data**. The app uses HealthKit to log Mindful Minutes locally on your device, with your explicit permission. No personal information is shared with third parties or collected by the app, in compliance with Apple’s App Store privacy requirements.
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/Nymohhh77/BrainGamma40Hz_public.git`
-2. Open the project in Xcode 16.4 or later.
-3. Add audio files (`alpha_music.mp3`, `gamma_music.mp3`) to the project bundle.
-4. Enable **HealthKit** and **Background Modes (Audio)** in **Signing & Capabilities**.
-5. Update `Info.plist` with required permissions:
-   - `NSCameraUsageDescription`
-   - `NSHealthShareUsageDescription`
-   - `NSHealthUpdateUsageDescription`
-   - `UIBackgroundModes` with `audio`
-6. Build and run on a physical iPhone (iOS 18 or later).
-
 ## Usage
 
 1. Launch the app and review the warning screen.
@@ -74,9 +61,6 @@ For issues, questions, or contributions:
 - Visit the GitHub repository: [github.com/Nymohhh77/BrainGamma40Hz_public](https://github.com/Nymohhh77/BrainGamma40Hz_public)
 - Open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
