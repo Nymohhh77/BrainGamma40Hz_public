@@ -6,20 +6,20 @@
 
 ## Features
 
-- **Customizable Sessions**: Choose session durations (10–30 minutes), frequencies (8–40 Hz, including alpha and gamma ranges), and strobe patterns (Steady, Burst, Transitioning).
-- **Audio Integration**: Includes meditative audio tracks to enhance the experience.
-- **Instructional Views**: Guides users to position the device 10–20 cm from their eyes in a dark environment for optimal effect and keep eyes closed during sessions.
+- **Customizable Sessions**: Choose session durations (10–30 minutes), frequencies (8–40 Hz, including alpha and gamma ranges), light intensity (10–100%), and strobe patterns (Steady, Burst, Transitioning).
+- **Audio Integration**: Includes meditative audio tracks ("Alpha Meditation" and "Gamma Focus") to enhance the experience.
+- **Instructional Views**: Guides users to position the device 10–20 cm from their eyes in a dark environment and keep eyes closed during sessions for optimal effect.
 - **HealthKit Integration**: Logs sessions as Mindful Minutes in the iOS Health app.
 - **About Section**: Provides scientific context and safety information within the app.
 - **Background Support**: Continues strobe and audio playback when the screen is locked or the app is in the background, with the screen kept on during sessions to ensure precision.
 
 ## The Science Behind BrainGamma40Hz
 
-BrainGamma40Hz uses rhythmic light stimulation to entrain brain waves, potentially promoting relaxation and cognitive benefits. Key concepts include:
+BrainGamma40Hz uses rhythmic light stimulation to entrain brain waves, potentially promoting relaxation and cognitive benefits. Users can adjust light intensity (10–100%) to balance effectiveness and comfort. Key concepts include:
 
-- **Alpha Frequencies (8–12 Hz)**: Research suggests alpha stimulation fosters relaxed focus, meditative states, and visual phenomena like phosphenes, which may reduce anxiety and enhance creativity [1].
-- **Gamma Frequencies (30–40 Hz)**: Studies, such as those from MIT (2016–2019), indicate 40Hz gamma stimulation may enhance neural synchronization, potentially improving cognition and mood, and inducing hypnagogic phenomena [2, 3].
-- **Rhythmic Stimulation**: Consistent, rhythmic light pulses are more effective at entraining brain waves compared to arrhythmic patterns, amplifying therapeutic effects [4].
+- **Alpha Frequencies (8–12 Hz)**: Research suggests alpha stimulation promotes relaxed focus and meditative states, often inducing visual phenomena like phosphenes. Moderate intensity (20–50%) can reduce anxiety and enhance creativity [1].
+- **Gamma Frequencies (30–40 Hz)**: Studies, such as those from MIT (2016–2019), indicate 40Hz gamma stimulation at higher intensity (50–100%) may enhance neural synchronization, potentially improving cognition and mood [2, 3].
+- **Rhythmic Stimulation**: Consistent, rhythmic light pulses are more effective at entraining brain waves compared to arrhythmic patterns, with intensity influencing neural response strength [4].
 
 ### References
 1. Klimesch, W. (2012). "Alpha-band oscillations, attention, and controlled access to stored information." *Trends in Cognitive Sciences*.
@@ -32,6 +32,7 @@ BrainGamma40Hz uses rhythmic light stimulation to entrain brain waves, potential
 ## Safety Considerations
 
 Approximately 3–5% of individuals with epilepsy are photosensitive and may be at risk from strobe lights. To minimize risks:
+- Adjust light intensity to a comfortable level (10–100%).
 - Use the app in a dark environment with eyes closed.
 - Position the device 10–20 cm from your eyes (e.g., on your chest while lying down or in front while sitting).
 - Consult a doctor if you have epilepsy, photosensitivity, or other medical conditions.
@@ -40,6 +41,18 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 
 **BrainGamma40Hz does not collect, store, or transmit any user data**. The app uses HealthKit to log Mindful Minutes locally on your device, with your explicit permission. No personal information is shared with third parties or collected by the app, in compliance with Apple’s App Store privacy requirements.
 
+## Installation
+
+1. Clone the repository: `git clone https://github.com/Nymohhh77/BrainGamma40Hz_public.git`
+2. Open the project in Xcode 16.4 or later.
+3. Add audio files (`alpha_music.mp3`, `gamma_music.mp3`) to the project bundle.
+4. Enable **HealthKit** and **Background Modes (Audio)** in **Signing & Capabilities**.
+5. Update `Info.plist` with required permissions:
+   - `NSCameraUsageDescription`
+   - `NSHealthShareUsageDescription`
+   - `NSHealthUpdateUsageDescription`
+   - `UIBackgroundModes` with `audio`
+6. Build and run on a physical iPhone (iOS 18 or later).
 
 ## Usage
 
@@ -47,6 +60,7 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 2. In the main view, select:
    - **Duration**: 10–30 minutes.
    - **Frequency**: 8–40 Hz (alpha or gamma).
+   - **Intensity**: 10–100% for comfortable light levels.
    - **Pattern**: Steady, Burst, or Transitioning.
    - **Music**: Alpha Meditation or Gamma Focus.
 3. Tap **Start** and follow instructional views (positioning, eyes closed).
@@ -56,12 +70,18 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 
 ## Support
 
-For issues, questions please contact braingamma40haz(at)libero.it
+For issues, questions, or contributions:
+- Visit the GitHub repository: [github.com/Nymohhh77/BrainGamma40Hz_public](https://github.com/Nymohhh77/BrainGamma40Hz_public)
+- Open an issue or submit a pull request.
 
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 **Disclaimer**: BrainGamma40Hz is an experimental app for personal use. It is not a medical device. Always prioritize safety and consult a healthcare professional before use.
 
 © 2025 Nymohhh77
+
+For issues, questions please contact braingamma40haz(at)libero.it
