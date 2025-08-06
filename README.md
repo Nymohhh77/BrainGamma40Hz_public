@@ -63,4 +63,4 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 
 © 2025 Nymohhh77
 
-For issues, questions please contact braingamma40haz(at)libero.it
+For issues, questions please contact braingamma40hz(at)libero.it
