@@ -57,11 +57,6 @@ Approximately 3–5% of individuals with epilepsy are photosensitive and may be 
 
 ## Support
 
-For issues, questions, or contributions:
-- Visit the GitHub repository: [github.com/Nymohhh77/BrainGamma40Hz_public](https://github.com/Nymohhh77/BrainGamma40Hz_public)
-- Open an issue or submit a pull request.
-
-
 ---
 
 **Disclaimer**: BrainGamma40Hz is an experimental app for personal use. It is not a medical device. Always prioritize safety and consult a healthcare professional before use.
